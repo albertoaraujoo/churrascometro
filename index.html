@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHURRASCÔMETRO</title>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<div class="container">
+
+    <div class="header">
+        CHURRASCÔMETRO
+    </div>
+
+    <div class="banner">
+        <div class="banner-text">
+            Calcule agora o seu churrasco.
+        </div> 
+    </div>
+
+    <div class="inputs-site">
+
+        <input class="inputs" id="adInput" type="number" placeholder="número de adultos" min="1">
+        <input class="inputs" id="chInput" type="number" placeholder="número de crianças" min="1">
+        <input class="inputs" id="duration" type="number" placeholder="duração (horas)" min="2">
+
+        <button id="button">CHURRASCAR</button>
+    </div>
+
+    <div class="footer">
+        
+            <div class="results">
+                <h1 class="results-text" id="meat">
+                    <img class="results-img" src="./assets/carne.png" >  Total de carne em kgs:</h1>
+
+                <h1 class="results-text" id="beer">
+                    <img class="results-img" src="./assets/cerveja.png">  Total de latinhas de cerveja:</h1>
+
+                <h1 class="results-text" id="water">
+                    <img class="results-img" src="./assets/garrafa-de-agua.png">  Total de água em litros:</h1>
+
+                <h1 class="results-text" id="soda"> 
+                    <img class="results-img" src="./assets/soda.png">  Total de refrigerante em litros:</h1>
+            </div>
+            <p>Developed by Alberto Araújo</p>
+    </div>
+
+</div>
+    
+<script src="./script.js"></script>
+</body>
+</html>
