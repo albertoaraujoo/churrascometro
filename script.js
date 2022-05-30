@@ -29,7 +29,7 @@ button.addEventListener('click', () => {
         else{
             document.getElementById("meat").innerHTML = 
             `<img class="results-img" src="./assets/carne.png" >
-            ${parseFloat(meat)} gramas de carne.`
+            ${parseFloat(meat)} kgs de carne.`
     }
 
 
