@@ -61,11 +61,11 @@
     }
     
     .results-text{
-        font-size: 14px;
+        font-size: 10px;
     }
     
     .results-img{
-        width: 34px;
+        width: 15px;
         margin-right: 10px;
     }
 }
