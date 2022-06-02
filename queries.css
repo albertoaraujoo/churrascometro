@@ -1,0 +1,71 @@
+@media (min-width: 768px){
+
+    .container{
+        width: 50%;
+        height: 40%;
+    }
+
+    .header{
+        width: 100%;
+        height: 10vh;
+        font-size: 4vw;
+    }
+
+    .banner{
+        width:100%;
+        height: 15vh;
+        background-size:cover;
+        background-position-y: -2vh;
+        background-repeat: no-repeat;
+    }
+
+    .banner-text{
+        font-size: 5vh;
+        justify-content: center;
+    }
+
+    .inputs-site{
+        width: 100%;
+        height: 35vh;
+    }
+
+    .inputs{
+        width: 80%;
+        height: 7vh;
+        color: #FF4612;
+        margin-bottom:20px;
+        font-size: 4vh;
+    }
+
+    ::placeholder{
+        font-size: 2vh;
+    }
+
+    #button{
+        margin-bottom:16px;
+        width: 80%;
+        height: 7vh;
+        background: #FF4612;
+        font-size: 4vh;
+    }
+
+    .footer{
+        width: 100%;
+        height: 30vh;
+        margin-top:25px;
+    }
+
+    .results{
+        width: 70%;
+        height: 22vh;
+    }
+    
+    .results-text{
+        font-size: 14px;
+    }
+    
+    .results-img{
+        width: 34px;
+        margin-right: 10px;
+    }
+}
