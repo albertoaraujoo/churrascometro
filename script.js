@@ -72,7 +72,6 @@ button.addEventListener('click', () => {
             ${soda} litros de Refrigerante.`
          }
 
-         console.log(soda)
-
+        
          document.querySelector('.results').style.display = "flex";
 })
